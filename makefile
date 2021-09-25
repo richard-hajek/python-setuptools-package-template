@@ -1,10 +1,8 @@
 build:
-	source venv/bin/activate
-	python3 -m build
+	venv/bin/python3 -m build
 
 deploy:
-	source venv/bin/activate
-	python3 -m twine upload --repository pypi dist/*
+	venv/bin/python3 -m twine upload --repository pypi dist/*
 
 clean:
 	rm dist/*
@@ -12,5 +10,4 @@ clean:
 
 prepare:
 	python -m venv venv
-	source venv/bin/activate
-	pip3 install twine build
+	venv/bin/pip3 install twine build
