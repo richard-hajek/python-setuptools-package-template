@@ -1,1 +1,2 @@
+# This file just points to setup.cfg, add requirements there
 .

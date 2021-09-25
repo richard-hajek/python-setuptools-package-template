@@ -1,3 +1,5 @@
+# You may or may not use this file, it is a shorthand
+
 build:
 	venv/bin/python3 -m build
 

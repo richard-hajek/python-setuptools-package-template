@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
+# Use this method if you don't want to add entrypoints
 source venv/bin/activate
 python -m project_name.main "$@"
