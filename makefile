@@ -11,3 +11,4 @@ clean:
 prepare:
 	python -m venv venv
 	venv/bin/pip3 install twine build
+	venv/bin/pip3 install -e .
