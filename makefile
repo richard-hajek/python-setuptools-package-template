@@ -11,7 +11,7 @@ clean:
 	rm -r src/*egg*
 
 prepare:
-	./prepare.py
+	bash -c '[ -f rename.py ] && ./rename.py && rm rename.py || true'
 	bash -c '[ -d venv ] || python -m venv venv'
 	venv/bin/pip3 install twine build
 	venv/bin/pip3 install -e .
