@@ -35,6 +35,7 @@ If you ever import a module from a different folder **this will not work**.
 ### Run as module
 
 ```bash
+pip install -e . # Run at least once
 python -m project_name.main [args]
 ```
 
