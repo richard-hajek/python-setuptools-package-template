@@ -42,4 +42,4 @@ python -m project_name.main [args]
 
 ### Run as entrypoint
 
-See [Full Installation](#Full-installation).
+See [Full Installation](#Full-installation) and [python - How to setup entry_points in setup.cfg - Stack Overflow](https://stackoverflow.com/questions/48884796/how-to-setup-entry-points-in-setup-cfg/48891252)
